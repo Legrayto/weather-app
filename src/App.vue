@@ -7,6 +7,7 @@
 						<input
 							type="text"
 							v-model='search'
+							placeholder='Введите город...'
 							@keypress.enter='queryWeather'
 							class="input"
 						>
